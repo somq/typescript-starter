@@ -1,0 +1,17 @@
+{
+  "name": "typescript-starter",
+  "version": "0.1.0",
+  "description": "🍏 Simple, basic, yet efficient ts starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --project ./tsconfig.json --respawn  --transpile-only --no-notify main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8"
+  }
+}
